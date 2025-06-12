@@ -1,0 +1,61 @@
+.topHeader{
+    width: 100%;
+    padding: 27px 0px 19px 15px;
+    background-color: #ffffff;
+}
+
+.topHeader h1{
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.profile{
+    display: flex;
+    gap: 20px;
+    padding: 30px 18px 20px 18px;
+}
+
+.profile .profileImage{
+    position: relative;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-color: gainsboro;
+    margin-right: 15px;
+}
+
+.profile .profileImage .editPhoto{
+    position: absolute;
+    bottom: 2px;
+    right: -2px;
+}
+
+.profileInfo h4{
+    font-size: 15px;
+    line-height: 19px;
+    color: #1D2226;
+    margin-bottom: 6px;
+}
+
+.profileInfo .profileEmail{
+    font-size: 14px;
+    line-height: 19px;
+    color: #1D2226;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.profileDesc{
+    padding: 0px 18px;
+    margin-top: 30px;
+    border-bottom: 1px dashed gainsboro;
+}
+
+.profileDesc p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1D2226;
+    opacity: 1;
+    margin-bottom: 20px;
+}

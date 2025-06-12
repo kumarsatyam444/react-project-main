@@ -1,0 +1,69 @@
+.loginBox{
+    height: 100%;
+    padding: 40px 20px 30px 20px;
+}
+
+.loginBox h1{
+    width: 188px;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.loginBox p {
+    font-size: 18px;
+    line-height: 26px;
+    opacity: 0.6;
+    color: #1D2226;
+    margin-top: 14px;
+    margin-bottom: 24px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form a{
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+.form .formGroup{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.form .formGroup:nth-child(2){
+    margin-bottom: 0;
+}
+
+.form .formGroup input {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    padding: 0 17px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    transition: .3s all;
+}
+
+.form .formGroup input:focus{
+    border-color: #6C25FF;
+}
+
+.form .formGroup label{
+    position: absolute;
+    height: 15px;
+    background: #F7F8F9;
+    z-index: 1;
+    top: -8px;
+    left: 17px;
+    font-size: 13px;
+    line-height: 17px;
+    color: #6C25FF;
+}
